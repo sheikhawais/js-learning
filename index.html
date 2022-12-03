@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html> <!-- Hypertext markup language -->
+    <head>
+        <title>Learning</title>
+        <link href="./styles.css" rel="stylesheet"/>
+        <style>
+            .heading {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            Header of the application
+        </header>
+        <main>
+            <section class="section play-area main-area-container">
+                <div>
+                    <div class="main">
+                        <p>Main Area</p>
+                        <div class="child">
+                            <p>Child Element</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="another child-main">
+                    <div class="main">Child Main</div>
+                </div>
+                <!-- <span><div></div></span> This is not a good practice -->
+            </section>
+            
+            <section class="section second-area second-area-container">
+                <div class="main">
+                    <p>Main Area</p>
+                    <div class="child">
+                        <p>Child Element</p>
+                    </div>
+                </div>
+                <!-- <span><div></div></span> This is not a good practice -->
+            </section>
+            
+        </main>
+        <footer>
+            The footer
+        </footer>
+        <script src="./app.js"></script>
+    </body>
+</html>
+
+
+<!-- emmet? -->
+<!-- 
+    Use <header> for the header of the application
+    Use <nav> for navigation links
+    Use <main> tag for the main content of the application
+    Use <footer> for creating the footer
+    
+
+    Vertical Margins (Margin top and bottom) doesn't work on inline elements
+    
+    If there is margin top and bottom between two elements, always greater margin is accepted.
+    
+    On one page, there should be only one h1 tag
+
+
+
+    
+        Types of styles
+
+        1. Inline styling
+        2. Interna styling
+        3. External styling
+
+ -->

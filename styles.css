@@ -1,0 +1,45 @@
+.header {
+    height: 50px;
+    background-color: #eeeeee;
+}
+
+#main {
+    font-weight: 500;
+    color: green;
+    font-size: 20px;
+}
+
+.play-area {
+    background-color: #f3f3f3;
+    border: solid 1px #ccc;
+}
+
+.play-area .main {
+    color: red;
+}
+
+.section.second-area {
+    background-color: blue;
+}
+
+.section {
+    border: solid 2px red;
+    background-color: green;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .section {
+        background-color: yellow;
+    }
+}
+
+.p-1 {
+    padding: 1em;
+}
+
+.custom-p-1 {
+    padding: 100px;
+}
